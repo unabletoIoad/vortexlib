@@ -10,7 +10,7 @@
 ]]
 
 if debugX then
-	warn('Initialising Rayfield')
+	warn('Initialising Vortex')
 end
 
 local function getService(name)
@@ -1561,7 +1561,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "Interface Suite"
 
 	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
-		LoadingFrame.Version.Text = "Rayfield UI"
+		LoadingFrame.Version.Text = "Vortex Hub"
 	end
 
 	if Settings.Icon and Settings.Icon ~= 0 and Topbar:FindFirstChild('Icon') then
